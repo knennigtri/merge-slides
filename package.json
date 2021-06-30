@@ -1,0 +1,38 @@
+{
+  "name": "merge-pptx",
+  "version": "0.2.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:knennigtri/merge-markdown.git"
+  },
+  "author": "Kevin Nennig <nen.devpr@gmail.com>",
+  "scripts": {
+    "default": "",
+    "readmeTOC": "doctoc README.md --github --title='# Contents'"
+  },
+  "main": "index.js",
+  "keywords": [
+    "powerpoint",
+    "merge",
+    "slides",
+    "ppt",
+    "pptx"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "minimist": "^1.2.5"
+  },
+  "bin": {
+    "merge-pptx": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": ""
+  }
+}
